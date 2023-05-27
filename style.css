@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+  --primary-color: #f71735;
+  --secondary-color: #45cb85;
+  --tertiary-color: #92e89d;
+  --quaternary-color: #b9e6ff;
+  --background-color: #153131;
+  --font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--quaternary-color);
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.warning-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2vw;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 0.5vw;
+  padding-bottom: 40px;
+}
+
+button {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#proceed-btn {
+  background-color: var(--primary-color);
+}
+
+#report-btn {
+  background-color: var(--quaternary-color);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button i {
+  margin-right: 5px;
+}
+
+a {
+  color: var(--secondary-color);
+}
